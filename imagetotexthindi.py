@@ -19,10 +19,10 @@ for filename in arr:
         print('')
     except:
         print("another format file",filename)
-'''cord = output[4][0]
+cord = output[4][0]
 x_min, y_min = [int(min(idx)) for idx in zip(*cord)]
 x_max, y_max = [int(max(idx)) for idx in zip(*cord)]
 image = cv2.imread(file_name)
 cv2.rectangle(image,(x_min,y_min),(x_max,y_max),(255,0,0),2)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
-plt.show()'''
+plt.show()
